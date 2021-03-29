@@ -6,9 +6,43 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>{% block title %}{% endblock %}</title>
+
+    <link rel="apple-touch-icon" href="D:\max\Проект№3\pictures" sizes="180x180">
+
+    <meta name="theme-color" content="#D8BFD8">
+
+
+
+
 </head>
 <body>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="check" viewBox="0 0 16 16">
+        <title>Check</title>
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+    </symbol>
+</svg>
+
+<div class="container py-3">
+    <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+
+            <span class="fs-4">ЗАО "ТМ"</span>
+        </a>
+
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <a class="me-3 py-2 text-dark text-decoration-none" href="#">Features</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="#">Enterprise</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="#">Support</a>
+            <a class="py-2 text-dark text-decoration-none" href="#">Pricing</a>
+        </nav>
+    </header>
+
+
+
     {% block body %}{% endblock %}
 </body>
 </html>
