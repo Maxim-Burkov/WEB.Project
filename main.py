@@ -22,6 +22,10 @@ def about():
 def poisk():
     return render_template('poisk.html')
 
+@app.route('/enter')
+def enter():
+    return render_template('enter.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
