@@ -1,17 +1,27 @@
-body {
-    background-image: url('pictures/fon.png');
+H1
+{
+	padding-top: 3px;
+	color: #000000;
+	font-size: 50px;
+	backface-visibility: ;
+	margin-left: 370px;
 }
-
-.form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.input-form
+{
+	margin-left: 300px;
 }
-
-.form h1 {
-    font-size: 4em;
-    padding: 0;
-    color: #fff
-
+.input-form INPUT
+{
+	height: 43px;
+	width: 347px;
+	margin-top: 10px;
+	font-size: 22px;
+}
+HTML
+{
+	margin-left: 200px;
+}
+A.forget
+{
+	margin-left: 400px;
 }
