@@ -4,27 +4,33 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('test.html')
+    with open('templates/grand.html', 'r', encoding='utf-8') as grand:
+        return grand.read()
 
 @app.route('/chat')
 def chat():
-    return render_template('chat.html')
+    with open('templates/chat.html', 'r', encoding='utf-8') as chats:
+        return chats.read()
 
 @app.route('/account')
 def account():
-    return render_template('account.html')
+    with open('templates/account.html', 'r', encoding='utf-8') as account:
+        return account.read()
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    with open('templates/about.html', 'r', encoding='utf-8') as abot:
+        return abot.read()
 
 @app.route('/poisk')
 def poisk():
-    return render_template('poisk.html')
+    with open('templates/poisk.html', 'r', encoding='utf-8') as search:
+        return search.read()
 
 @app.route('/enter')
 def enter():
-    return render_template('enter.html')
+    with open('templates/enter.html', 'r', encoding='utf-8') as go:
+        return go.read()
 
 
 if __name__ == "__main__":

@@ -1,3 +1,17 @@
 body {
-    background: #000;
+    background-image: url('pictures/fon.png');
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form h1 {
+    font-size: 4em;
+    padding: 0;
+    color: #fff
+
 }
