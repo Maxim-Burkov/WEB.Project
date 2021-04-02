@@ -25,3 +25,49 @@ A.forget
 {
 	margin-left: 400px;
 }
+
+body {
+    background-image: url('https://www.oboiru.ru/sites/default/files/0182-11_oboi_pod_pokrasku_shafran.jpg')
+}
+
+.button 
+{
+    margin-left: 400px;
+    height: 43px;
+    width: 347px;
+    font-size: 22px;
+    background-color: red;
+}
+
+.main {
+    font-family: tohoma;
+    font-size: 30px;
+    margin-left: 50px;
+    color: black;
+     text-decoration: none;
+}
+.entering {
+    font-family: tohoma;
+    font-size: 30px;
+    margin-left: 300px;
+    color: red;
+}
+
+.logo {
+    margin-left: -100px;
+}
+
+.search_fraze {
+    background-color: white;
+    margin-left: 150px;
+    font-size: 22px;
+    font-family: tohoma;
+}
+
+
+
+
+
+
+
+

@@ -7,11 +7,6 @@ def index():
     with open('templates/grand.html', 'r', encoding='utf-8') as grand:
         return grand.read()
 
-@app.route('/chat')
-def chat():
-    with open('templates/chat.html', 'r', encoding='utf-8') as chats:
-        return chats.read()
-
 @app.route('/account')
 def account():
     with open('templates/account.html', 'r', encoding='utf-8') as account:
@@ -22,10 +17,10 @@ def about():
     with open('templates/about.html', 'r', encoding='utf-8') as abot:
         return abot.read()
 
-@app.route('/poisk')
-def poisk():
-    with open('templates/poisk.html', 'r', encoding='utf-8') as search:
-        return search.read()
+@app.route('/regestration')
+def regeatration():
+    with open('templates/regestration.html', 'r', encoding='utf-8') as reg:
+        return reg.read()
 
 @app.route('/enter')
 def enter():
