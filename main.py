@@ -17,10 +17,6 @@ def about():
     with open('templates/about.html', 'r', encoding='utf-8') as abot:
         return abot.read()
 
-@app.route('/regestration')
-def regeatration():
-    with open('templates/regestration.html', 'r', encoding='utf-8') as reg:
-        return reg.read()
 
 @app.route('/enter')
 def enter():

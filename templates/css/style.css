@@ -26,12 +26,20 @@ A.forget
 	margin-left: 400px;
 }
 
-body {
-    background-image: url('https://www.oboiru.ru/sites/default/files/0182-11_oboi_pod_pokrasku_shafran.jpg')
+header {
+    margin-top: 25;
+    background-color: blue;
+    height: 100px;
 }
 
-.button 
-{
+
+
+body {
+    background-color: white;
+}
+
+.button {
+    margin-top: 25;
     margin-left: 400px;
     height: 43px;
     width: 347px;
@@ -40,28 +48,46 @@ body {
 }
 
 .main {
-    font-family: tohoma;
+    font-family: 'Permanent Marker', cursive;
     font-size: 30px;
+    margin-top: 25;
     margin-left: 50px;
     color: black;
-     text-decoration: none;
+    text-decoration: none;
+    
 }
 .entering {
-    font-family: tohoma;
-    font-size: 30px;
-    margin-left: 300px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16px;
+    margin-left: 350px;
+    margin-top: 25;
     color: red;
 }
 
 .logo {
-    margin-left: -100px;
+    margin-top: 25;
+    margin-left: -150px;
+    height: 80px;
+    
 }
 
 .search_fraze {
+    margin-top: 25;
     background-color: white;
-    margin-left: 150px;
+    margin-left: 50px;
     font-size: 22px;
-    font-family: tohoma;
+    font-family: 'Permanent Marker', cursive;
+    height: 35px;
+}
+
+.search_button {
+    margin-top: 25;
+    background-color: red;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    width: 110px;
+    height: 50px;
+    margin-left: 15px;
 }
 
 
