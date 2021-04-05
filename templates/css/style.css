@@ -1,35 +1,63 @@
 H1
 {
+    font-family: 'Permanent Marker', cursive;
 	padding-top: 3px;
 	color: #000000;
 	font-size: 50px;
-	backface-visibility: ;
-	margin-left: 370px;
+	margin-left: 500px;
 }
 .input-form
 {
-	margin-left: 300px;
+    font-family: 'Permanent Marker', cursive;
+	margin-left: 500px;
 }
 .input-form INPUT
 {
+    font-family: 'Permanent Marker', cursive;
 	height: 43px;
-	width: 347px;
+	width: 300px;
 	margin-top: 10px;
 	font-size: 22px;
 }
-HTML
-{
-	margin-left: 200px;
+
+.forget {
+    margin-left: 580px;
+    color: red;
 }
-A.forget
-{
-	margin-left: 400px;
+
+.but {
+    background-color: lightblue;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px
+        
+    
+}
+
+.lab {
+    font-size: 22px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.label {
+    margin-top: 10px;
+    padding-bottom: 25px;
+    font-size: 22px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 450px; 
+    
 }
 
 header {
-    margin-top: 25;
-    background-color: blue;
+    margin-top: 25px;
     height: 100px;
+    background-color: blue;
 }
 
 
@@ -39,19 +67,19 @@ body {
 }
 
 .button {
-    margin-top: 25;
-    margin-left: 400px;
+    margin-top: 25px;
+    margin-left: 500px;
     height: 43px;
-    width: 347px;
+    width: 305px;
     font-size: 22px;
-    background-color: red;
+    background-color: lightblue;
 }
 
 .main {
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
     margin-top: 25;
-    margin-left: 50px;
+    margin-left: 150px;
     color: black;
     text-decoration: none;
     
@@ -65,14 +93,20 @@ body {
 }
 
 .logo {
-    margin-top: 25;
-    margin-left: -150px;
+    margin-top: 10px;
+    margin-left: 30px;
     height: 80px;
+    width: 100px;
+    position: absolute;
     
 }
 
+.voity{
+    margin-left: 550px;
+}
+
 .search_fraze {
-    margin-top: 25;
+    margin-top: 30px;
     background-color: white;
     margin-left: 50px;
     font-size: 22px;
@@ -90,10 +124,40 @@ body {
     margin-left: 15px;
 }
 
+.form {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    
+    width: 850px;
+    height: 3000px;
+    border: solid;
+    border-color: blue;
+    border-top-color: white;
+    
+}
 
 
+.form INPUT {
+    
+    font-size: 22px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 100px;
+    padding-top: 3px;
+    margin-top: 25px;
+    
+}
 
+.form LABEL {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
 
-
+.form Input BUTTON {
+    background-color: lightblue;
+}
 
 
