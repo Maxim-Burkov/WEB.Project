@@ -1,6 +1,35 @@
 from flask import Flask, render_template, url_for
+import flask_login
+import SQLAlchemy
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///shop.db'
+db = SQLAlchemy(app)
+
+class Account(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    login = db.Column(db.String(300), nullable=False)
+    password = db.Column(db.String(10), nullable=False)
+    name = db.Column(db.String(300), nullable=False)
+    surname = db.Column(db.String(300), nullable=False)
+    tele = db.Column(db.Text(30), nullable=False)
+    email = db.Column(db.String(300), nullable=False)
+
+    def __repr__(self):
+        # return '<Post %r>' % self.id
+        pass
+
+
+
+class Post(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    login = db.Column(db.String(300), nullable=False)
+    tele = db.Column(db.Text(30), nullable=False)
+
+    def __repr__(self):
+        # return '<Post %r>' % self.id
+        pass
+
 
 @app.route('/')
 def index():
